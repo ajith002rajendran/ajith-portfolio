@@ -306,3 +306,32 @@ footer p {
     color: #94A3B8;
     font-size: 14px;
 }
+
+.typing {
+  width: 22ch;
+  overflow: hidden;
+  white-space: nowrap;
+  
+
+  animation:
+    typing 3s steps(22),
+    blink 0.5s step-end infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+
+  to {
+    width:22ch;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+
