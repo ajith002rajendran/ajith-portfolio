@@ -274,6 +274,9 @@ section{
         max-width: 100%;
         height: auto;
     }
+    #about p{
+        font-size: 15px;
+    }
 }
 
 
